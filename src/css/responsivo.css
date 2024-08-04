@@ -3,6 +3,23 @@
         margin: 0 auto;
     }
 
+    .img img {
+        width: 140px;
+    }
+
+    .main .botoes {
+        width: 300px;
+    }
+    
+    .main .botoes button {
+        width: 130px;
+        font-size: 14px;
+    }
+
+    .alternador img {
+        width: 130px;
+    }
+
     .botoes div {
         margin: 0 auto;
     }
