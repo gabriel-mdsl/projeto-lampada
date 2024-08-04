@@ -1,4 +1,4 @@
-// window.alert('Clik na lâmpada para quebra-la!')
+window.alert('Clik na lâmpada para quebra-la!')
 
 const acendida = document.getElementById('parAcesa');
 
