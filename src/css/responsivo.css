@@ -1,0 +1,16 @@
+@media (max-width: 655px) {
+    .main {
+        margin: 0 auto;
+    }
+
+    .botoes div {
+        margin: 0 auto;
+    }
+
+    .botoes {
+        max-width: 400px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+}

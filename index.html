@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/estilos.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+    <title>Projeto Lâmpada</title>
+</head>
+<body>
+    <div class="main">
+        <div class="img">
+            <img class="lampada" id="lampada" src="src/imagens/lampada-acesa.png" alt="Lâmpada">
+        </div>
+        <div class="botoes">
+            <div class="divisao">
+                <button id="acender" onclick="lampadaAcesa()">Acender</button>
+                <p id="parAcesa"></p>
+            </div>
+
+            <div class="divisao">
+                <button id="acenderApagar" onclick="acesaApagada()">Acender/Apagar</button>
+                <p id="parAcesaApagada"></p>
+            </div>
+
+            <div class="divisao">
+                <button id="apagar" onclick="lampadaApagada()">Apagar</button>
+                <p id="parApagada"></p>
+            </div>
+
+            <div class="alternador">
+                <img id="alternador-on-off" onclick="botaoOnOff()" src="src/imagens/botao-on.png" alt="">
+                <div class="divOnOff"><p id="onOff"></p></div>
+            </div>
+        </div>
+        <div class="trincada"><p id="quebrada"></p></div>
+    </div>
+
+    <script src="src/javascript/script.js"></script>
+</body>
+</html>
