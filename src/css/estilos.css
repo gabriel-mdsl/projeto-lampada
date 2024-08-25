@@ -132,3 +132,10 @@ body, html {
 .divisao {
     height: 80px;
 }
+
+.about {
+    height: 8%;
+    text-align: center;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
